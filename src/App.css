@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+* {
+  font-family: "Noto Sans JP", sans-serif;
+}
+body {
+  background: rgba(17, 138, 27, 0.39);
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1.2;
+}
+.container {
+  background: white;
+  padding: 1.2rem;
+  width: 90vw;
+  margin: 8rem auto;
+  max-width: 35rem;
+  border-radius: 0.25rem;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+.form-control {
+  display: flex;
+  justify-content: center;
+  border-radius: 0.25rem;
+}
+/* .form-group  ; */
+.text-input {
+  border-radius: 0.25rem;
+  border: transparent;
+  padding: 4px;
+
+  /* padding: 0.2rem; */
+  font-size: 1.2rem;
+  background: rgba(163, 231, 168, 0.39);
+  flex: 1 0 auto;
+}
+
+.submit-btn {
+  background-color: rgba(17, 138, 27, 0.39);
+  color: rgb(34, 34, 34);
+  border-radius: 0.25rem;
+  padding: 4px;
+  cursor: pointer;
+  flex: 0 0 5rem;
+  border: transparent;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 0.25rem 1rem;
+  background-color: aliceblue;
+  box-shadow: 0 1px 3px (rgba(0, 0, 0, 0.7));
+  border-radius: 0.25rem;
+  font-size: 1.2rem;
+}
+
+.alert {
+  margin-bottom: 1.5rem;
+  height: 1.25rem;
+  padding: 0.25rem 1rem;
+  border-radius: 0.25rem;
+}
+
+.alert.error {
+  background: rgb(255, 174, 174);
+  color: rgb(151, 0, 0);
+}
+
+.alert.success {
+  background: rgb(183, 255, 174);
+  color: rgb(0, 109, 9);
+}
+
+.btn-edit {
+  font-size: 25px;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  color: rgb(0, 109, 9);
+}
+.btn-remove {
+  font-size: 25px;
+  margin-left: 0.8rem;
+  cursor: pointer;
+  color: rgb(151, 0, 0);
+}
